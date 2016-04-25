@@ -1,0 +1,23 @@
+{
+  "name": "TodoList",
+  "authors": [
+    "MC"
+  ],
+  "description": "",
+  "main": "",
+  "license": "BSD",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "^2.2.0",
+    "react": "^15.0.1"
+  }
+}

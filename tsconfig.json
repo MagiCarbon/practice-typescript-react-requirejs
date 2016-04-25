@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "target": "es5",
+        "jsx": "react",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "outDir": "public/dist",
+        "rootDir": "src"
+    },
+    "filesGlob": [
+        // "**/*.ts",
+        // "**/*.tsx",
+        // "!node_modules/**"
+    ],
+    "files": [
+        "src/main.tsx",
+        "src/app.tsx",
+        "src/list.tsx"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
