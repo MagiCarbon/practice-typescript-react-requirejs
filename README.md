@@ -3,11 +3,10 @@ TodoList
 
 ### rewrite TodoList with Typescript and Requirejs
 
-`typings install`
-
-`bower install`
-
-`tsc`
+- `typings install`
+- `bower install`
+- `tsc`
+- `http-server`
 
 ### Original:
 
