@@ -1,9 +1,15 @@
 # practice-typescript-react-requirejs
 TodoList
 
-rewrite TodoList with Typescript and Requirejs
+### rewrite TodoList with Typescript and Requirejs
 
-Original:
+`typings install`
+
+`bower install`
+
+`tsc`
+
+### Original:
 
 ```javascript
 var TodoList = React.createClass({
