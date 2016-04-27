@@ -3,10 +3,9 @@ TodoList
 
 ### rewrite TodoList with Typescript and Requirejs
 
-1. `typings install`
-2. `bower install`
-3. `tsc`
-4. `http-server`
+1. `npm install`
+2. `npm build`
+3. `npm start`
 
 ### Original:
 
