@@ -9,14 +9,13 @@
         "rootDir": "src"
     },
     "filesGlob": [
-        // "**/*.ts",
-        // "**/*.tsx",
+        // "src/**/*.ts",
+        // "src/**/*.tsx"
         // "!node_modules/**"
     ],
     "files": [
-        "src/main.tsx",
-        "src/app.tsx",
-        "src/list.tsx"
+        "src/main.ts",
+        "src/app.tsx"
     ],
     "exclude": [
         "node_modules"

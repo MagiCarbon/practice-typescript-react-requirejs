@@ -1,6 +1,8 @@
 /// <reference path="./tsd.d.ts" />
 /// <reference path="./interfaces.d.ts" />
 
+import React = require("react");
+import ReactDOM = require("react-dom");
 import { List }  from "./list";
 
 class App extends React.Component<AppProps, AppState> {
@@ -47,5 +49,10 @@ class App extends React.Component<AppProps, AppState> {
         );
     }
 }
+
+ReactDOM.render(
+    <App />,
+    document.getElementById('app')
+);
 
 export = App;

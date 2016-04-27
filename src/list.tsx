@@ -1,6 +1,8 @@
 /// <reference path="./tsd.d.ts" />
 /// <reference path="./interfaces.d.ts" />
 
+import React = require("react");
+
 class List extends React.Component<ListProps, ListState> {
     constructor(props: ListProps, state: ListState) {
         super(props);
